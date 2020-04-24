@@ -61,7 +61,7 @@
       <div class="col-12 row">
         <div class="col-7">
           <label for="itera" class='text-light text-left'>Numero de Generaciones:</label>
-          <input type="text" id="itera" name="itera" class='form-control mb-3' placeholder='Generaciones'>
+          <input type="text" id="itera" name="itera" class='form-control mb-3' placeholder='Generaciones' value=200>
         </div>
         <div class="col-5 roy my-auto p-0">
           <button onclick="each()" class='btn btn-secondary col-12 mb-1'>Iniciar</button>
@@ -87,7 +87,7 @@
     <div class="col-sm-12 d-block d-md-none my-3">
       <div class="row">
         <div class="col-10 offset-1 row">
-          <input type="text" id="iteraCel" name="itera" class='form-control col-7 m-auto' placeholder='Numero de Generaciones'>
+          <input type="text" id="iteraCel" name="itera" class='form-control col-7 m-auto' placeholder='Numero de Generaciones' value=200>
           <div class="col-5 row m-auto">
             <button onclick="each()" class='btn btn-secondary col-12 mb-1'>Iniciar</button>
             <a href="./" class='btn btn-primary col-12'>Limpiar</a>

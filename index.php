@@ -80,6 +80,8 @@
         <h3 class="text-light">Reglas del Juego:</h3>
         <p class="text-light text-justify mb-2">1. La Celula que esté muerta, pero tiene 3 vecinas vivas, vuelve a vivir</p>
         <p class="text-light text-justify mb-2">2. La celula que esté viva, pero que tenga menos que 2 o mas que 3 vecinos vivos, se muere.</p>
+        <p class="text-light text-right">Visualizar codigo fuente en <a class='text-info' href="https://github.com/JLopzz/LiveGame">GitHub</a></p>
+        <footer class="blockquote-footer text-light">Hecho por <a href="https://github.com/JLopzz" class="text-light"><cite title="Source Title">JLopzz</cite></a></footer>
       </div>
     </div>
     <div class="col-sm-12 d-block d-md-none my-3">
@@ -103,7 +105,9 @@
           <h3 class="text-light">Reglas del Juego:</h3>
           <p class="text-light text-justify">1. La Celula que esté muerta, pero tiene 3 vecinas vivas, vuelve a vivir</p>
           <p class="text-light text-justify">2. La celula que esté viva, pero que tenga menos que 2 o mas que 3 vecinos vivos, se muere.</p>
-        </div>        
+        <p class="text-light text-right">Visualizar codigo fuente en <a class='text-info' href="https://github.com/JLopzz/LiveGame">GitHub</a></p>
+        <footer class="blockquote-footer text-light">Hecho por <a href="https://github.com/JLopzz" class="text-light"><cite title="Source Title">JLopzz</cite></a></footer>
+        </div>
       </div>
     </div>
   </div>

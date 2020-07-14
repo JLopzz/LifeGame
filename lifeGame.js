@@ -130,7 +130,6 @@ function getAlive(){
       false:[]
     },
   }
-  //fin de script agregado para pruebas
   el.forEach(a=>{
     if(a.className=='true') count++;
     //if de prueba para estado inicial
@@ -138,9 +137,25 @@ function getAlive(){
     else if(a.attributes.neigh.value==2) n.n2[a.className].push(a)
     else if(a.attributes.neigh.value==3) n.n3[a.className].push(a)
     else if(a.attributes.neigh.value==4) n.n4[a.className].push(a)
-    //fin de script agregado para pruebas
   })
-  console.log(n)
+  //console.log(n)
+  let m = []
+  el.forEach(a=>{
+    if(a.attributes.neigh.value > 0){
+      let item = {
+        neigh: a.attributes.neigh.value,
+        state: a.className,
+        positionX: Number(a.id.match(/^\d+/g)),
+        positionY: Number(a.id.match(/\d+$/g))
+      }
+      m.push(item)
+    }
+  })
+  m.forEach(a => {
+    // console.log(a)
+  })
+  console.log(m)
+  //fin de script agregado para pruebas
   document.getElementById('alive').innerText='Celulas Vivas: '+count
   document.getElementById('aliveCel').innerText='Celulas Vivas: '+count
 }

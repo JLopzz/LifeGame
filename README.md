@@ -1,4 +1,4 @@
-# LiveGame
+# LifeGame
 Juego de la Vida, inventado por el matemático británico John Horton Conway en 1970.
 
 Este es un simulador del Juego de la Vida, Planteado por Conway.
